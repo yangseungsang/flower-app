@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:front/layout/root_tab.dart';
 
 void main() {
   runApp(const _App());
@@ -14,7 +15,7 @@ class _App extends StatelessWidget {
         fontFamily: 'NotoSans',
       ),
       debugShowCheckedModeBanner: false,
-      home: Container(),
+      home: RootTab(),
     );
   }
 }
